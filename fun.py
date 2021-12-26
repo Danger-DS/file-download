@@ -212,8 +212,8 @@ class fun(commands.Cog):
             # img.paste(x, (304, 304), x)
             
             img.save(r'cogs\media\tictactoe.png')
-            x = Image.open('tictactoe/x.png')
-            o = Image.open('tictactoe/o.png')
+            x = Image.open('cogs/media/x.png')
+            o = Image.open('cogs/media/o.png')
             # x.save(r'C:\Users\dange\OneDrive\Desktop\Portfolio\Discord\tictactoe\x.png')
             # o.save(r'C:\Users\dange\OneDrive\Desktop\Portfolio\Discord\tictactoe\o.png')
             # await ctx.channel.send('saved.')
